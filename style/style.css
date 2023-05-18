@@ -1,2 +1,44 @@
 @charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; /*respeita a borda das caixas */
+}
 
+body {
+  background-color: #121215;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  padding: 64px;
+}
+.memory {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /*Espaçamento entre "caixas"*/
+  text-decoration: none;
+  margin-bottom: 64px;
+}
+.memory small {
+  color: #bebebf;
+  font-size: 12px;
+}
+
+.memory h1 {
+  font-size: 32px;
+}
+
+.memory img {
+  width: 100%;
+  object-fit: cover; /*faz com que a imagem sempre fique do tamnho de uma Capa*/
+  height: 280px;
+  border-radius: 8px;
+}
+
+.memory p {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
